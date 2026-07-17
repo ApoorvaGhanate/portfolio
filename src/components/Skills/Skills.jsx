@@ -51,8 +51,6 @@ return(
 
 <li><FaReact/> React.js</li>
 
-<li><SiTailwindcss/> Tailwind CSS</li>
-
 </ul>
 
 </div>

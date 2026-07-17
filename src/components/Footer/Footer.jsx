@@ -6,7 +6,7 @@ return(
 
 <footer className="footer">
 
-<h3>Apoorva Ghanate</h3>
+<h3>Apoorva Kishor Ghanate</h3>
 
 <p>
 

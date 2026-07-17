@@ -1,5 +1,4 @@
 import "./Projects.css";
-
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
@@ -11,62 +10,41 @@ function Projects() {
         <h2>Projects</h2>
       </div>
 
-      {/* Featured Project */}
+      <div className="projects-grid">
 
-      <div className="featured-project">
-
-        <div className="featured-content">
-
-          <span className="featured-badge">
-            ⭐ Featured Project
-          </span>
-
-          <h2>CrisisIQ</h2>
+        {/* CrisisIQ */}
+        <div className="project-card">
+          <h3>CrisisIQ</h3>
 
           <p>
-            CrisisIQ is an AI-powered emergency response platform developed
-            using AWS PartyRock. It helps users transform emergency situations
-            into actionable insights by leveraging Generative AI to provide
-            quick guidance and recommendations during critical scenarios.
+            AI-powered emergency response platform built using AWS PartyRock
+            that transforms emergency situations into actionable insights
+            using Generative AI.
           </p>
 
           <div className="project-tech">
-
             <span>AWS PartyRock</span>
             <span>Generative AI</span>
             <span>Prompt Engineering</span>
-
           </div>
 
-          <div className="project-buttons">
-
-            <a
-              href="https://partyrock.aws/u/apoorva2005/Vl5IPhVnu/CrisisIQ%253A-Turning-Emergencies-into-Actionable-Insights"
-              target="_blank"
-              rel="noreferrer"
-              className="btn"
-            >
-              <FaExternalLinkAlt />
-              Live Demo
-            </a>
-
-          </div>
-
+          <a
+            href="https://partyrock.aws/u/apoorva2005/Vl5IPhVnu/CrisisIQ%253A-Turning-Emergencies-into-Actionable-Insights"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaExternalLinkAlt />
+            Live Demo
+          </a>
         </div>
 
-      </div>
-
-      {/* Other Projects */}
-
-      <div className="projects-grid">
-
+        {/* CRM */}
         <div className="project-card">
-
           <h3>Lead Management CRM</h3>
 
           <p>
             A CRM application that helps manage leads efficiently with
-            authentication, lead tracking and CRUD operations.
+            authentication, lead tracking and CRUD operations to manage sales leads for small businesses.
           </p>
 
           <div className="project-tech">
@@ -83,16 +61,15 @@ function Projects() {
             <FaGithub />
             GitHub
           </a>
-
         </div>
 
+        {/* Stock Market */}
         <div className="project-card">
-
           <h3>Stock Market Prediction</h3>
 
           <p>
-            Machine Learning project that predicts stock prices using historical
-            data and visualization techniques.
+            Machine Learning project that predicts stock prices using
+            historical data and visualization techniques.
           </p>
 
           <div className="project-tech">
@@ -109,11 +86,10 @@ function Projects() {
             <FaGithub />
             GitHub
           </a>
-
         </div>
 
+        {/* Internship Portal */}
         <div className="project-card">
-
           <h3>Internship Portal</h3>
 
           <p>
@@ -135,7 +111,6 @@ function Projects() {
             <FaGithub />
             GitHub
           </a>
-
         </div>
 
       </div>

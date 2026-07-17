@@ -14,7 +14,7 @@ function Hero() {
       <div className="hero-left">
 
         <span className="hero-tag">
-          👋 Hello, I'm
+          Hello, I'm
         </span>
 
         <h1>Apoorva Ghanate</h1>
@@ -34,7 +34,7 @@ function Hero() {
         <div className="hero-buttons">
 
           <a
-            href="/resume.pdf"
+            href="/Apoorva_FSD_Resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="btn"
@@ -69,7 +69,7 @@ function Hero() {
             <FaLinkedin />
           </a>
 
-          <a href="mailto:YOUR_EMAIL@gmail.com">
+          <a href="mailto:ghanateapoorvak06@gmail.com">
             <FaEnvelope />
           </a>
 

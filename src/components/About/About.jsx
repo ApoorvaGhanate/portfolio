@@ -67,7 +67,7 @@ function About() {
 
             <h4>Currently Learning</h4>
 
-            <p>Cloud Computing & Generative AI</p>
+            <p>Full Stack Development, Cloud Computing & Generative AI</p>
 
           </div>
 
