@@ -4,7 +4,7 @@ A modern and responsive personal portfolio built using React and Vite to showcas
 
 ## 🚀 Live Demo
 
-Coming Soon (Vercel Deployment)
+https://apoorvaghanate.vercel.app/
 
 
 
